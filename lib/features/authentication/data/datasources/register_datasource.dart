@@ -1,6 +1,5 @@
 import 'package:dartz/dartz.dart';
 import 'package:hive_flutter/adapters.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../../../core/network/failure.dart';
 import '../models/user_model.dart';

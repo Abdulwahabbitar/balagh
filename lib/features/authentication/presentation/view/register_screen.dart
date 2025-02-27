@@ -49,7 +49,7 @@ class RegisterScreen extends StatelessWidget {
                         width: MediaQuery.of(context).size.width * 0.8,
                         child: CustomTextField(
                             controller: nameController,
-                            labelText: 'Name',
+                            hintText: 'Name',
                             icon: Icons.person_2_outlined),
                       ),
                       SizedBox(
@@ -59,7 +59,7 @@ class RegisterScreen extends StatelessWidget {
                         width: MediaQuery.of(context).size.width * 0.8,
                         child: CustomTextField(
                             controller: emailController,
-                            labelText: 'Email',
+                            hintText: 'Email',
                             icon: Icons.email_outlined),
                       ),
                       SizedBox(
@@ -69,7 +69,7 @@ class RegisterScreen extends StatelessWidget {
                         width: MediaQuery.of(context).size.width * 0.8,
                         child: CustomTextField(
                             controller: passwordController,
-                            labelText: 'Password',
+                            hintText: 'Password',
                             icon: Icons.lock_outline_rounded),
                       ),
                       SizedBox(
@@ -79,7 +79,7 @@ class RegisterScreen extends StatelessWidget {
                         width: MediaQuery.of(context).size.width * 0.8,
                         child: CustomTextField(
                             controller: confirmPasswordController,
-                            labelText: 'Confirm Password',
+                            hintText: 'Confirm Password',
                             icon: Icons.lock_outline_rounded),
                       ),
                       SizedBox(
